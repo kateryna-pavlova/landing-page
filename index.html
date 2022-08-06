@@ -10,12 +10,12 @@
 </head>
 
 <body>
-    <div id="page-wrapper">
-        <header id="header">
+    <div class="page-wrapper">
+        <header class="header">
         <div class="logo">
-            <img src="img/logo.svg" alt="Original Hostel logo">
+            <img class="header-img" src="img/logo.svg" alt="Original Hostel logo">
         </div>
-        <nav id="nav-bar">
+        <nav class="nav-bar">
             <ul>
                 <li><a class="nav-link" href="#about">About Us</a></li>
                 <li><a class="nav-link" href="#rooms">Our rooms</a></li>
@@ -23,7 +23,7 @@
             </ul>
         </nav>
         </header>
-        <section id="welcome">
+        <section class="welcome">
             <h1 class="welcome_name">Welcome to our Hotel</h1>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
                 <input id="email" type="email" placeholder="enter your email" required>
@@ -33,14 +33,15 @@
         <div class="container">
             <section id="about">
                 <h2>About US</h2>
-                <p>Happy Hostel is a family business that has been home for travellers and backpackers here in London
+                <p>
+                    Happy Hostel is a family business that has been home for travellers and backpackers here in London
                     for the past 17 years. Our founder intended to create a place which will be more than just a place
                     to stay in a big city.
                     Following his passion, he has created a Happy Hostel, where every guest is welcomed with a warm and
                     friendly atmosphere. The hostel offers a variety of amenities such as a home-made breakfast, hot
                     shower, and a clean bed.
                 </p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/DjFZkwe_HN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe id="video" width="800" height="400" src="https://www.youtube.com/embed/DjFZkwe_HN8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
             <section id="rooms">
                 <h2>Our rooms</h2>
@@ -50,15 +51,12 @@
                 <div id="room_b">
                     <img src="img/gallery2.png" alt="room B">
                 </div>
-                <div id="room_c">
-                    <img src="img/gallery3.png" alt="room C">
-                </div>
             </section>
             <div id="activities">
-                <h1>Join Us in Our Activities at the Guest Lounge</h1>
+                <h2>Join Us in Our Activities at the Guest Lounge</h2>
                 <p>
                     Enjoy a different activity in our guest lounge every evening.</p>
-                <ul>
+                <ul class="offers">
                     <li>Movie nights;</li>
                     <li>Wine & cheese;</li>
                     <li>Cooking lessons;</li>

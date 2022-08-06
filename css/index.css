@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    top: 0;
+    min-height: 75;
+    padding: 0 20;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dcb92000;}
+    .header-img {
+    height: 50px; }
+
+h1 {text-transform: uppercase;
+text-align: center;
+padding-top: 100px;
+padding-bottom: 20px;
+}
+#form {text-align:center;}
+.nav-link {
+    color: black;
+    text-align:right;
+}
+h2, .offers {text-align: center;
+padding: top 10px;
+padding-bottom: 10px}
+img {display: block;
+width: 100%;}
+.enter:hover {
+    color: red;
+}
+p {
+    text-align: center;
+}
+.page-wrapper {font-family:monospace;
+font-size:x-large}
+body {background-color:rgb(233, 245, 179);}
+span {text-align: right;
+color:darkgray;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size:xx-small;}
+
+#form input{display:block;}
+@media (min-width:600px) {
+    #form input {
+        display: inline;
+    }
+}
